@@ -1,5 +1,7 @@
 package dev.toliner.survivorgame
 
-fun main() {
+import dev.toliner.survivorgame.app.GameApp
 
+fun main() {
+    GameApp().run()
 }
